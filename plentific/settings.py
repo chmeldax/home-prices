@@ -17,6 +17,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+RUNNING_IN_HEROKU = os.environ.get("DATABASE_URL", None) is not None
 
 
 # Quick-start development settings - unsuitable for production
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -82,7 +84,7 @@ WSGI_APPLICATION = 'plentific.wsgi.application'
 DATABASES = {}
 
 # Heroku configuration
-if os.environ.get("DATABASE_URL", None) is not None:
+if RUNNING_IN_HEROKU:
     DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 else:
     DATABASES['default'] = {
@@ -133,3 +135,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
+if RUNNING_IN_HEROKU:
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
