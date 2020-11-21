@@ -28,7 +28,9 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "*"  # FIXME: To be provided by env variables
+]
 
 
 # Application definition
@@ -83,7 +85,7 @@ DATABASES = {}
 if os.environ.get("DATABASE_URL", None) is not None:
     DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 else:
-     DATABASES['default'] = {
+    DATABASES['default'] = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': os.environ.get("DB_NAME"),
         'USER': os.environ.get("DB_USER"),
