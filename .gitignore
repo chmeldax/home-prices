@@ -1,4 +1,14 @@
-# created by virtualenv automatically
-.venv
-tmp
-static
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/.idea
+/.venv
+/static
+/media
+*.pyc
+*.pyo
+*.log
+*.sqlite3
+.DS_Store
+.coverage
+/logs
+/tmp
+/.vscode
