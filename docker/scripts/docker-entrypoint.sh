@@ -11,6 +11,7 @@ echo "Upstream services are ready."
 
 # Django init
 python3 /app/manage.py collectstatic --no-input
+python3 manage.py migrate
 
 # Gunicorn
 mkdir -p /app/tmp/
