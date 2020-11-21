@@ -1,0 +1,24 @@
+version: '3'
+services:
+  plentific:
+    build: .
+    container_name: plentific
+    ports:
+      - 8000:80
+    volumes:
+      - .:/app
+    environment:
+      DB_NAME: plentific
+      DB_USER: plentific
+      DB_HOST: postgres
+      DB_PASSWORD: 123
+      DB_PORT: 5432
+      SECRET_KEY: 'mdu0$nn5x__9#iz9-^e1us&edc00ai^t!at&(5!qf08ldb4j-2'
+  postgres:
+    image: postgres:10.10-alpine
+    container_name: postgres
+    environment:
+      POSTGRES_DATABASE: plentific
+      POSTGRES_USER: plentific
+      POSTGRES_PASSWORD: 123
+      POSTGRES_ROOT_PASSWORD: 123
