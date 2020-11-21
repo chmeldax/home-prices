@@ -1,4 +1,5 @@
 from django.db import models
+from django_cte import CTEManager
 
 
 class PropertySale(models.Model):
@@ -9,6 +10,7 @@ class PropertySale(models.Model):
         ("F", "Flats/Maisonettes"),
         ("O", "Other"),
     )
+    objects = CTEManager()
 
     price = models.IntegerField()
     date_of_transfer = models.DateTimeField()
