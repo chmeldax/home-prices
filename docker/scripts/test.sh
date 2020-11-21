@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-echo "No testing command specified. Skipping."
+cd /app
+python3 manage.py test
+pycodestyle --max-line-length=120 --exclude=migrations --ignore=W503,E203,W606,W293 .
