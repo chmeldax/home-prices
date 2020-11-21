@@ -1,0 +1,1070 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add property sale",
+      "content_type": 7,
+      "codename": "add_propertysale"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change property sale",
+      "content_type": 7,
+      "codename": "change_propertysale"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete property sale",
+      "content_type": 7,
+      "codename": "delete_propertysale"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view property sale",
+      "content_type": 7,
+      "codename": "view_propertysale"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "prices",
+      "model": "propertysale"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 1,
+    "fields": {
+      "price": 10,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 2,
+    "fields": {
+      "price": 20,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 3,
+    "fields": {
+      "price": 30,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 4,
+    "fields": {
+      "price": 40,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 5,
+    "fields": {
+      "price": 50,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 6,
+    "fields": {
+      "price": 60,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 7,
+    "fields": {
+      "price": 70,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 8,
+    "fields": {
+      "price": 80,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 9,
+    "fields": {
+      "price": 90,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 10,
+    "fields": {
+      "price": 100,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 11,
+    "fields": {
+      "price": 11,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 12,
+    "fields": {
+      "price": 21,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 13,
+    "fields": {
+      "price": 31,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 14,
+    "fields": {
+      "price": 41,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 15,
+    "fields": {
+      "price": 51,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 16,
+    "fields": {
+      "price": 61,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "T"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 17,
+    "fields": {
+      "price": 71,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "T"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 18,
+    "fields": {
+      "price": 81,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "T"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 19,
+    "fields": {
+      "price": 91,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "T"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 20,
+    "fields": {
+      "price": 110,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 21,
+    "fields": {
+      "price": 120,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 22,
+    "fields": {
+      "price": 130,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 23,
+    "fields": {
+      "price": 140,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 24,
+    "fields": {
+      "price": 150,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 25,
+    "fields": {
+      "price": 160,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 26,
+    "fields": {
+      "price": 170,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 27,
+    "fields": {
+      "price": 180,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 28,
+    "fields": {
+      "price": 190,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 29,
+    "fields": {
+      "price": 200,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 30,
+    "fields": {
+      "price": 111,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 31,
+    "fields": {
+      "price": 121,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 32,
+    "fields": {
+      "price": 131,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 33,
+    "fields": {
+      "price": 141,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 34,
+    "fields": {
+      "price": 151,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 35,
+    "fields": {
+      "price": 161,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "F"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 36,
+    "fields": {
+      "price": 171,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "F"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 37,
+    "fields": {
+      "price": 181,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "F"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 38,
+    "fields": {
+      "price": 191,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "EN36BG",
+      "property_type": "F"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 39,
+    "fields": {
+      "price": 15,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 40,
+    "fields": {
+      "price": 25,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 41,
+    "fields": {
+      "price": 35,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 42,
+    "fields": {
+      "price": 45,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 43,
+    "fields": {
+      "price": 55,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 44,
+    "fields": {
+      "price": 65,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 45,
+    "fields": {
+      "price": 75,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 46,
+    "fields": {
+      "price": 85,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 47,
+    "fields": {
+      "price": 95,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 48,
+    "fields": {
+      "price": 105,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 49,
+    "fields": {
+      "price": 16,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 50,
+    "fields": {
+      "price": 26,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 51,
+    "fields": {
+      "price": 36,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 52,
+    "fields": {
+      "price": 46,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 53,
+    "fields": {
+      "price": 56,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 54,
+    "fields": {
+      "price": 66,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "T"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 55,
+    "fields": {
+      "price": 76,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "T"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 56,
+    "fields": {
+      "price": 86,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "T"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 57,
+    "fields": {
+      "price": 96,
+      "date_of_transfer": "2020-01-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "T"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 58,
+    "fields": {
+      "price": 115,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 59,
+    "fields": {
+      "price": 125,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 60,
+    "fields": {
+      "price": 135,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 61,
+    "fields": {
+      "price": 145,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 62,
+    "fields": {
+      "price": 155,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 63,
+    "fields": {
+      "price": 165,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 64,
+    "fields": {
+      "price": 175,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 65,
+    "fields": {
+      "price": 185,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 66,
+    "fields": {
+      "price": 195,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 67,
+    "fields": {
+      "price": 205,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "D"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 68,
+    "fields": {
+      "price": 116,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 69,
+    "fields": {
+      "price": 126,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 70,
+    "fields": {
+      "price": 136,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 71,
+    "fields": {
+      "price": 146,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 72,
+    "fields": {
+      "price": 156,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "S"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 73,
+    "fields": {
+      "price": 166,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "F"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 74,
+    "fields": {
+      "price": 176,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "F"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 75,
+    "fields": {
+      "price": 186,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "F"
+    }
+  },
+  {
+    "model": "prices.propertysale",
+    "pk": 76,
+    "fields": {
+      "price": 196,
+      "date_of_transfer": "2020-02-01T00:00:00Z",
+      "postcode": "E106EL",
+      "property_type": "F"
+    }
+  }
+]
