@@ -16,3 +16,8 @@ class PropertySale(models.Model):
     date_of_transfer = models.DateTimeField()
     postcode = models.CharField(max_length=8)
     property_type = models.CharField(choices=PROPERTY_TYPE_CHOICES, max_length=1)
+
+    class Meta:
+        indexes = [
+            models.Index(fields=["date_of_transfer", "postcode"]),
+        ]

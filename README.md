@@ -9,13 +9,14 @@ Plenty of stuff could be optimised way further. Just a few things that come to
 my mind:
 
   - histogram API's query could be transformed into materialised view, so that the
-  query is rather quick
+  query is rather quick.
   - uploading CSV into DB should be done "offline", i.e. using COPY command and 
   perhaps temp table would be way easier.
   - I haven't touched anything related to authentication and such.
   - Whole developer experience might be enhanced - I've just used requirements.txt
   and fed it into pip3. I guess poetry could be a good replacement.
   - Browsable API should be fully configured + Swagger would help too.
+  - Histogram could create underflow and overflow buckets (as seen in your screenshot).
 
 ## Running locally
 

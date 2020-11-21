@@ -23,6 +23,7 @@ class AveragePropertyPriceList(ListAPIView):
 
 class PropertyPriceCountList(ListAPIView):
     serializer_class = PropertyPriceCountSerializer
+    queryset = PropertySale.objects.all()
 
     def list(self, request, *args, **kwargs):
         from_date = self.kwargs["from_date"]
