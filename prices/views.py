@@ -46,10 +46,10 @@ class PropertyPriceCountList(ListAPIView):
                 (min_price + step * (bucket - 1)) AS bucket_start,
                 (min_price + step * (bucket)) AS bucket_end,
                 COUNT(*)
-            FROM 
+            FROM
                 generate_series(1, 8) g(bucket)
                 CROSS JOIN price_stats ps
-                LEFT JOIN prices_propertysale pps 
+                LEFT JOIN prices_propertysale pps
                     ON width_bucket(price, min_price, max_price + 0.01, 8) = g.bucket
             WHERE pps.date_of_transfer BETWEEN %(from_date)s AND %(to_date)s AND pps.postcode = %(postcode)s
             GROUP BY bucket_start, bucket_end
